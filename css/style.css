@@ -110,7 +110,7 @@ li,a{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 5em;
-    background-image: url(/img/backgroundlogos4.png);
+    background-image: url(../img/backgroundlogos4.png);
     position: relative;
     z-index: 5;
 }
@@ -199,7 +199,7 @@ li,a{
     align-items: center;
     justify-content: space-around;
     margin-bottom: 2em;
-    background-image: url(/img/backgroundlogo-white3.png);
+    background-image: url(../img/backgroundlogo-white3.png);
     position: sticky;
     z-index: 5;
 }
@@ -248,7 +248,7 @@ li,a{
 .headermenucontainer{
     height: 180vh;
     width: 100%;
-    background-image: url(/img/burgermockup02.jpg);
+    background-image: url(../img/burgermockup02.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -368,7 +368,7 @@ li,a{
 .headercontactcontainer{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/24.jpg);
+    background-image: url(../img/24.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -441,7 +441,7 @@ li,a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-image: url(/img/backgroundlogos4.png);
+    background-image: url(../img/backgroundlogos4.png);
 
 }
 
@@ -702,7 +702,7 @@ li,a{
 @media (max-width: 707px){
     /* Carta.html */
     .headermenucontainer{
-        background-image: url(/img/burgermockup02.jpg);
+        background-image: url(../img/burgermockup02.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -759,7 +759,7 @@ li,a{
     }
 
     .headercontainer{
-        background-image: url(/img/burgermockup02.jpg);
+        background-image: url(../img/burgermockup02.jpg);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1001,7 +1001,7 @@ li,a{
 
 @font-face {
     font-family: gothamultra;
-    src: url(/fonts/gothamultra.otf);
+    src: url(../fonts/gothamultra.otf);
 }
 
 h1 {
