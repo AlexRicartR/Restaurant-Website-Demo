@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksBurgers © | NYC Hamburger Restaurant & Bar</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon-16x16.png">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header with background image -->
+    <div class="headercontainer">
+        <!-- Navigation bar -->
+        <nav class="main-navbar">
+            <ul id="navbar" class="navbar-ul-list">
+                <li><a href="index.html" class="navbarlink">HOME</a></li>
+                <li><a href="index.html#special" class="navbarlink">MONTHLY SPECIALS</a></li>
+                <li><a href="index.html#aboutus" class="navbarlink">ABOUT</a></li>
+                <li><a href="menu.html" class="navbarlink">MENU</a></li>
+                <li><a href="locations.html" class="navbarlink">LOCATIONS</a></li>
+            </ul>
+        </nav>
+        <!-- Toggle -->
+        <div id="menu" class="burger-menu"><img src="/img/whitetoggle.png" alt=""></div>
+
+        <!-- Logo  -->
+        <div class="mainlogo">
+            <img class="geekslogo" src="/img/geeksrestaurantmini.png" alt="">
+            <h1 class="mainlogotitle">Best burgers in town</h1>
+            <p class="pmainlogo">Since 1963</p>
+        </div>
+    </div>
+
+    <!-- Special container -->
+    <div id="special" class="specialcontainer">
+        <div class="monthlytitle">
+            <h1>Monthly specials</h1>
+        </div>
+        <!-- Container grid -->
+        <div class="special-grid reveal-d300">
+            <div class="special bg-effect-img">
+                <img src="/img/frontenderburger.jpeg" alt="frontender" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">Frontender's Burger</h3>
+                    <p class="descripcion-special reveal-d1300">10 oz. all natural beef, imported gruyere, caramelized
+                        onions, rosemary - garlic aioli
+
+                    </p>
+                    <p class="precio-special reveal-d1500">$18.50</p>
+                </div>
+            </div>
+            <div class="special bg-effect-img">
+                <img src="/img/backenderburger.jpg" alt="backender" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">Backender's Burger</h3>
+                    <p class="descripcion-special reveal-d1300">The ugly one - choice of cheese with lettuce, tomato,
+                        pickles
+                    </p>
+                    <p class="precio-special reveal-d1500">$14.80</p>
+                </div>
+            </div>
+            <div class="special bg-effect-img">
+                <img src="/img/burger-large.jpg" alt="junior" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">Junior Dev's Burger</h3>
+                    <p class="descripcion-special reveal-d1300">Our junior devs left too much space in each < div> when
+                            stacking this burger. Apologies in advance.</p>
+                    <p class="precio-special reveal-d1500">$3.00</p>
+                </div>
+            </div>
+            <div class="special bg-effect-img">
+                <img src="/img/salad.jpg" alt="salad" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">Original GeeksBurgers Salad</h3>
+                    <p class="descripcion-special reveal-d1300">Too much time with VS Code? Trust me buddy, this one is
+                        for you. </p>
+                    <p class="precio-special reveal-d1500">$17.50</p>
+                </div>
+            </div>
+            <div class="special bg-effect-img">
+                <img src="/img/plateempty.jpg" alt="empty" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">Z-Index Burger</h3>
+                    <p class="descripcion-special reveal-d1300">It seems that our devs set up a wrong z-index property.
+                        The burger should be somewhere behind this div.</p>
+                    <p class="precio-special reveal-d1500">$10.50</p>
+                </div>
+            </div>
+            <div class="special bg-effect-img">
+                <img src="/img/fries.jpg" alt="fries" class="img-special">
+                <div class="texto-special bg-effect-txt">
+                    <h3 class="titulo-special reveal-d800">French Fries</h3>
+                    <p class="descripcion-special reveal-d1300">Crinkle cut, sweet potato, corn battered waffle
+                    </p>
+                    <p class="precio-special reveal-d1500">$9.50</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About us container -->
+    <div id="aboutus" class="contenedor-sobreNosotros reveal-d300">
+        <div class="aboutustext">
+            <h1 class="aboutustitle">About</h1>
+            <p class="aboutusp reveal-d800">We strive to elevate the burger experience to its top shelf -
+                because you
+                and your burger deserve better. While other “burger joints” serve their burgers in wax paper, or in a
+                cardboard box,
+                GeeksBurgers holds itself to a higher standard. Burgers this great deserve to be served stacked high on
+                a real
+                plate, at a table with a proper setting, and with a great glass of wine or a craft beer, by a person who
+                speaks the
+                language of real service. A GeeksBurgers Burger could never be eaten standing up. Knife and fork is
+                optional
+                napkins are required. </p>
+        </div>
+        <div class="carouselcontainer">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/thekitchenguydarken.jpg" class="d-block w-100 img-size" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/burgermockup12darken.jpg" class="d-block w-100 img-size" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/diningroom.jpg" class="d-block w-100 img-size" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/burger3.jpg" class="d-block w-100 img-size" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- ScrollReveal -->
+    <script src="js/scrollReveal.js"></script>
+    <!-- Menu Hamburguesa -->
+    <script src="js/responsiveNavbar.js"></script>
+</body>
+</html>
