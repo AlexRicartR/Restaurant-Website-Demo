@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksBurgers © | Menu</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Header container with background image -->
+    <div class="headermenucontainer">
+        <!-- Navigation bar -->
+        <nav class="main-navbar">
+            <ul id="navbar" class="navbar-ul-list">
+                <li><a href="index.html" class="navbarlink">HOME</a></li>
+                <li><a href="index.html#special" class="navbarlink">MONTHLY SPECIALS</a></li>
+                <li><a href="index.html#aboutus" class="navbarlink">ABOUT</a></li>
+                <li><a href="menu.html" class="navbarlink">MENU</a></li>
+                <li><a href="locations.html" class="navbarlink">LOCATIONS</a></li>
+            </ul>
+        </nav>
+        <!-- Menu -->
+        <div id="menu" class="burger-menu"><img src="/img/whitetoggle.png" alt=""></div>
+        <!-- Logo -->
+        <div class="contenedor-carta">
+            <div class="logo-carta">
+                <div id="menumaintext"><h1>Menu</h1>
+                <br> <p>Check out what's going on in our kitchen</p>
+                </div>
+                <img src="/img/geeksicon.png" alt="" class="signature">
+            </div>
+            <!-- Menu container -->
+            <div class="carta reveal-d200">
+                <div class="contenedor-menu">
+                    <ul class="menu-links navbar-ul-list-menu ">
+                        <li><a class="navbarlink" onclick="MostrarEntrantes()">Food</a></li>
+                        <li><a class="navbarlink" onclick="MostrarPrimeros()">Beverage</a></li>
+                        <li><a class="navbarlink" onclick="MostrarSegundos()">Kids</a></li>
+                        <li><a class="navbarlink" onclick="MostrarPostres()">Happy Hour</a></li>
+                    </ul>
+                    <!-- Food -->
+                    <div id="entrantes" class="contenedor-menu-carta">
+                        <table class="tabla-menu">
+                            <tr><td class="linea1 columna1 reveal-d500">FRONTENDER'S BURGER</td> <td class="columna2 precio-plato reveal-d1500">$18.50</td></tr>
+                            <td class="descripcion-plato reveal-d600">10 oz. all natural beef, imported gruyere, caramelized onions, rosemary - garlic aioli
+                            </td>
+                            <tr><td class="linea1 reveal-d600">BACKENDER'S BURGER</td> <td class="precio-plato reveal-d1500">$14.80</td></tr>
+                            <td class="descripcion-plato reveal-d700">The ugly one - choice of cheese with lettuce, tomato, pickles</td>
+                            <tr><td class="linea1 reveal-d700">JUNIOR DEV'S BURGER</td> <td class="precio-plato reveal-d1500">$3.00</td></tr>
+                            <td class="descripcion-plato reveal-d800">Our junior devs left too much space in each < div > when stacking this burger.</td>
+                            <tr><td class="linea1 reveal-d800">ORIGINAL GEEKSBURGERS SALAD</td> <td class="precio-plato reveal-d1500">$17.50</td></tr>
+                            <td class="descripcion-plato reveal-d900">Too much time with VS Code? Trust me buddy, this one is for you.</td>
+                            <tr><td class="linea1 reveal-d900">Z-INDEX BURGER</td> <td class="precio-plato reveal-d1500">$10.50</td></tr>
+                            <td class="descripcion-plato reveal-d1000">It seems that our devs set up a wrong z-index property. The burger should be somewhere behind this div.</td>
+                        </table>
+                    </div>
+                    <!-- Beverage -->
+                    <div id="primeros" class="contenedor-menu-carta" style=" display:none;">
+                        <table class="tabla-menu">
+                            <tr><td class="linea1 columna1">ROASTED PINEAPPLE MARGARITA</td> <td class="columna2 precio-plato">$14.00</td></tr>
+                            <td class="descripcion-plato">el jimador reposado, caramelized pineapple, fresh lemon & lime</td>
+                            <tr><td class="linea1">FROZEN WATERMELON MARGARITA</td> <td class="precio-plato">$14.00</td></tr>
+                            <td class="descripcion-plato">cuervo tradicional silver, black lava salted rim</td>
+                            <tr><td class="linea1">5N BLOODY MARY</td> <td class="precio-plato">$12.00</td></tr>
+                            <td class="descripcion-plato">three olives citrus vodka, signature mix, b&b pickles, olives, fresh lemon & lime, celery</td>
+                            <tr><td class="linea1">VELVET MULE</td> <td class="precio-plato">$16.00</td></tr>
+                            <td class="descripcion-plato">three olives vodka, velvet falernum, ginger beer, fresh lime</td>
+                            <tr><td class="linea1">RUM SWIZZLE PUNCH</td> <td class="precio-plato">$13.50</td></tr>
+                            <td class="descripcion-plato">flor de caña aged rum,fresh pineapple juice, passion fruit puree,house made banana bitters</td>
+                        </table>
+                    </div>
+                    <!-- Kids -->
+                    <div id="segundos" class="contenedor-menu-carta" style=" display:none;">
+                        <table class="tabla-menu">
+                            <tr><td class="linea1 columna1">CHEESEBURGER</td> <td class="columna2 precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">choice of veggie sticks or crinkle cut fries</td>
+                            <tr><td class="linea1">CRISPY RANCH CHICKEN</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">choice of veggie sticks or crinkle cut fries</td>
+                            <tr><td class="linea1">ALL BEEF HOT DOG	</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">choice of veggie sticks or crinkle cut fries</td>
+                            <tr><td class="linea1">BUFFALO CHICKEN</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">buttermilk fried white meat chicken, hell's kitchen hot sauce, blue cheese dressing</td>
+                            <tr><td class="linea1">CALI REUBEN</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">oven roasted turkey breast, gruyere, 5N slaw, toasted rye</td>
+                        </table>
+                    </div>
+                    <!-- Happy Hour -->
+                    <div id="postres" class="contenedor-menu-carta" style=" display:none;">
+                        <table class="tabla-menu">
+                            <tr><td class="linea1 columna1">ITALIAN SPICED TURKEY</td> <td class="columna2 precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">our italian spiced turkey burger, smoked mozzarella, balsamic peppers, tomato jam</td>
+                            <tr><td class="linea1">THE IMPOSSIBLE</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">6 oz. vegan patty created & produced by Impossible Foods with lettuce, tomato, pickles & vegan sauce, vegan potato bun </td>
+                            <tr><td class="linea1">ALL BEEF HOT DOG	</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">choice of veggie sticks or crinkle cut fries</td>
+                            <tr><td class="linea1">BUFFALO CHICKEN</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">buttermilk fried white meat chicken, hell's kitchen hot sauce, blue cheese dressing</td>
+                            <tr><td class="linea1">CALI REUBEN</td> <td class="precio-plato">$10.00</td></tr>
+                            <td class="descripcion-plato">oven roasted turkey breast, gruyere, 5N slaw, toasted rye</td>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Menu -->
+    <script src="js/menu.js"></script>
+    <!-- Script ScrollReveal Mio -->
+    <script src="js/scrollReveal.js"></script>
+    <!-- Script Menu Hamburguesa -->
+    <script src="js/responsiveNavbar.js"></script>
+</body>
+</html>
